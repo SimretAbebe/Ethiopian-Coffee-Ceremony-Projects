@@ -1,12 +1,22 @@
-# React + Vite
+☕ Ethiopian Coffee Ceremony Webpage
+Welcome to the Ethiopian Coffee Ceremony Webpage — a React-based project showcasing the rich history, cultural significance, and traditional preparation of Ethiopian coffee. This site serves as a digital introduction to one of Ethiopia’s most treasured traditions, bringing its story to the world.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Features
+🏠 Home Section — Beautiful welcome header and introduction
 
-Currently, two official plugins are available:
+📜 History Section — Explore the origins and legends behind Ethiopian coffee
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Procedure Section — Step-by-step process of the Ethiopian coffee-making ceremony
 
-## Expanding the ESLint configuration
+🖼️ Gallery Section — Collection of authentic ceremony images
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📱 Fully responsive and modern design
+
+🚀 Built With
+React.js — Frontend library
+
+Vite — Build tool
+
+CSS — Styling
+
+React functional components and props
