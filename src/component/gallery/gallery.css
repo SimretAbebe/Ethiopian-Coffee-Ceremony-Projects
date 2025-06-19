@@ -1,0 +1,93 @@
+.gallery {
+    margin: 80px auto;
+    padding: 40px;
+    max-width: 1200px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05); /* light glass effect */
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); /* dark subtle shadow */
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    gap: 25px;
+    transition: transform 0.5s ease-in-out;
+    min-width: fit-content;
+    padding: 30px;
+}
+
+.slider img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.slider img:hover {
+    transform: scale(1.1) rotate(1deg);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Arrows styling */
+.next-btn, .back-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(0, 0, 0, 0.6); /* dark background */
+    color: #fff; /* white arrow icon */
+    font-size: 24px; /* clear, big arrow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+    transition: background 0.3s ease;
+}
+
+.next-btn:hover, .back-btn:hover {
+    background: rgba(0, 0, 0, 0.8); /* slight darken on hover */
+    /* no scaling, no rotate */
+}
+
+
+.next-btn {
+    right: 15px;
+}
+
+.back-btn {
+    left: 15px;
+}
+
+@media (max-width: 1000px) {
+    .gallery {
+        padding: 20px;
+    }
+    .slider img {
+        width: 200px;
+        height: 200px;
+    }
+    .next-btn, .back-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .slider {
+        gap: 15px;
+        padding: 10px;
+    }
+    .slider img {
+        width: 150px;
+        height: 150px;
+    }
+}

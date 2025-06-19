@@ -1,0 +1,43 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: url('https://i.ibb.co/k611G7zK/coffee.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.text{
+    text-align: center;
+    color: whitesmoke;
+}
+.text h1{
+    font-size:50px;
+    font-weight: 700;
+}
+.text p{
+    margin: 10px auto 20px;
+    line-height: 4.4;
+    font-size: 15px;
+
+}
+@media (max-width: 1000px) {
+    .text h1 {
+        font-size: 40px;
+    }
+    .text p {
+        font-size: 14px;
+        line-height: 3.5;
+    }
+}
+@media (max-width: 600px) {
+    .text h1 {
+        font-size: 28px;
+    }
+    .text p {
+        font-size: 12px;
+        line-height: 2.5;
+    }
+}

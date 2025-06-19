@@ -1,0 +1,54 @@
+nav{
+    width: 100%;
+    background: linear-gradient(90deg, #2C1B0C, #4B2E14, #1C1A1C);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+.logo{
+    width:100px;
+    border-radius: 30%;
+    object-fit: cover; 
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+}
+nav h1{
+    color: #FFD700;  /* Gold color (symbol of royalty/Ethiopia) */
+    text-shadow: 2px 2px 4px #000000; /* subtle shadow for pop */
+    font-family: 'Merriweather', serif; /* elegant, coffee-book style */
+    font-size: 30px;
+}
+ 
+
+
+
+@media (max-width: 1000px) {
+    nav ul li {
+        margin: 5px 10px;
+        font-size: 14px;
+    }
+    nav h1 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
