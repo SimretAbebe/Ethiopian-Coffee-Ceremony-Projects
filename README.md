@@ -1,5 +1,7 @@
 ☕ Ethiopian Coffee Ceremony Webpage
+
 Welcome to the Ethiopian Coffee Ceremony Webpage — a React-based project showcasing the rich history, cultural significance, and traditional preparation of Ethiopian coffee. This site serves as a digital introduction to one of Ethiopia’s most treasured traditions, bringing its story to the world.
+
 
 🌟 Features
 🏠 Home Section — Beautiful welcome header and introduction
