@@ -1,24 +1,23 @@
-☕ Ethiopian Coffee Ceremony Webpage
+☕ Ethiopian Coffee Ceremony Web Page
+🌍 Introduction
+This project is a modern, responsive React.js web application designed to introduce the beauty, history, and cultural richness of the Ethiopian Coffee Ceremony to the world.
 
-Welcome to the Ethiopian Coffee Ceremony Webpage — a React-based project showcasing the rich history, cultural significance, and traditional preparation of Ethiopian coffee. This site serves as a digital introduction to one of Ethiopia’s most treasured traditions, bringing its story to the world.
+🚀 Features
+🌿 Home Section: Overview of Ethiopia’s legendary coffee origin.
 
+📖 History Section: The story of Kaldi and the origin of coffee.
 
-🌟 Features
-🏠 Home Section — Beautiful welcome header and introduction
+🔥 Procedure Section: Step-by-step guide on the traditional Ethiopian coffee preparation.
 
-📜 History Section — Explore the origins and legends behind Ethiopian coffee
+🖼️ Gallery Section: Beautiful images showcasing the ceremony and its traditions.
 
-🛠️ Procedure Section — Step-by-step process of the Ethiopian coffee-making ceremony
+📱 Fully Responsive Design — works on desktop, tablet, and mobile.
 
-🖼️ Gallery Section — Collection of authentic ceremony images
+🎨 Clean and elegant UI.
 
-📱 Fully responsive and modern design
+🛠️ Technologies Used
+React.js (with Vite)
 
-🚀 Built With
-React.js — Frontend library
+CSS3 (for styling)
 
-Vite — Build tool
-
-CSS — Styling
-
-React functional components and props
+JavaScript (ES6+)
